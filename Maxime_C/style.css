@@ -1,0 +1,465 @@
+/*---------------------------------------- HTML ---------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+
+/*---------------------------------------- HEADER ---------------------------------------- */
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1440px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+    list-style: none;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 0.7em;
+    margin: 0.5em;
+    color: white;
+    background: rgba(7, 1, 1, 0.6)
+}
+
+header a:hover {
+    color: #070101;
+    background: rgba(256, 256, 256, 0.6)
+}
+
+
+
+/*---------------------------------------- BODY ---------------------------------------- */
+
+body {
+    background-color: #070101;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-image: url(images/wallpaper.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*---------------------------------------- PRESENTATION ---------------------------------------- */
+
+#section-presentation {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-presentation-col {
+    margin: 0 2em;
+}
+
+#section-presentation h1 {
+    font-family: 'Jost', sans-serif;
+    color: #D84905;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 3px 3px 15px black;
+}
+
+
+.texte-presentation {
+    line-height: 1em;
+    width: auto;
+    margin-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-style: italic;
+    padding-bottom: 2em;
+    text-shadow: 4px 4px 15px black;
+}
+
+.photo-profil {
+    width: 386px;
+    height: 514.6px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 15px black;
+
+}
+
+.cta {
+    display: flex;
+    padding: 0.5em;
+    border-radius: 100px;
+    text-decoration: none;
+    justify-content: space-around;
+    width: 200px;
+    background: white;
+    font-weight: bold;
+    align-items: center;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    text-shadow: 0px 0px 15px black;
+    font-size: 0.9em;
+}
+
+.cta img {
+    width: 12%;
+}
+
+.cta:hover{
+    background-color: #D84905;
+
+}
+
+/*---------------------------------------- FORMATION ---------------------------------------- */
+
+
+#section-formation {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+#section-formation h2 {
+    color: white;
+    font-family: 'jost', sans-serif;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+
+table,
+td,
+tr {
+    border-bottom: 1px solid white;
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 1rem 4rem 1rem 4rem;
+    margin-bottom: 1em;
+    font-size: 1rem;
+}
+
+th {
+    padding-bottom: 1em;
+    font-size: 1rem;
+}
+
+
+/*---------------------------------------- EXPERIENCES PROS ---------------------------------------- */
+
+#section-experiences-pro {
+    background-color: rgba(216, 73, 5, 0.5);
+    padding: 1em;
+}
+
+
+#section-experiences-pro h2 {
+    color: white;
+    font-family: 'jost', sans-serif;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+/*---------------------------------------- SOFT SKILLS ---------------------------------------- */
+
+#section-soft-skills {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+#section-soft-skills h2 {
+    color: white;
+    font-family: 'jost', sans-serif;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+
+#section-soft-skills ol {
+    font-size: 1rem;
+}
+
+.competences {
+    display: flex;
+    justify-content: center;
+    font-family: "roboto", sans-serif;
+    color: white;
+}
+
+ol {
+    margin: 0 6em;
+    line-height: 1.7rem;
+}
+
+
+/*---------------------------------------- DEV SKILLS ---------------------------------------- */
+
+#section-dev-skills img {
+    width: 5rem;
+    padding: 1em;
+}
+
+#section-dev-skills h2 {
+    color: white;
+    font-family: 'jost', sans-serif;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+#section-dev-skills div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-dev-skills {
+    background-color: rgba(216, 73, 5, 0.5);
+    padding: 1em;
+}
+
+
+
+/*---------------------------------------- HOBBY ---------------------------------------- */
+
+#section-presentation-hobby {
+    padding-top: 6rem;
+}
+
+#section-presentation-hobby p {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 20px black;
+}
+
+#section-presentation-hobby div {
+    padding: 3rem;
+}
+
+#section-liste-hobby p {
+    color: #D84905;
+    font-size: 1.9em;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 20px black
+}
+
+iframe {
+    display: block;
+    border: none;
+    margin: auto;
+}
+
+.carroussel-hobby {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    padding: 3rem;
+    justify-items: center;
+}
+
+#section-liste-hobby img {
+    width: 150px;
+    padding: 20px 20px 0px 20px;
+}
+
+article {
+    display: block;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 25% 25% 10% 10%;
+    border: solid 1px rgba(256, 256, 256, 0.8);
+    background: rgba(256, 256, 256, 0.8);
+    margin: 2em 0;
+}
+
+*/
+/*---------------------------------------- CONTACT ---------------------------------------- */
+
+#section-formulaire {
+    padding: none;
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 150px;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+fieldset {
+    padding: 2em;
+    margin: 1em;
+    border-radius: 15px;
+}
+
+.coordonnees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.genre {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.champ-saisi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 50%;
+}
+
+.genre div {
+    display: flex;
+    flex-direction: row;
+}
+
+textarea {
+    color: white;
+    font-family: 'roboto', sans-serif;
+    padding: 10px;
+    background: rgba(7, 1, 1, 0.6);
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label,
+legend {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 23;
+    text-shadow: 5px 5px 15px red;
+}
+
+#nom,
+#prenom,
+#mail,
+select {
+    background: rgba(7, 1, 1, 0.6);
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.message {
+    width: 100%;
+}
+
+
+input,
+select {
+    color: white;
+    font-family: 'roboto', sans-serif;
+    padding-left: 10px;
+    display: flex;
+    background: rgba(7, 1, 1, 0.6);
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+
+button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    border: 2px solid white;
+    border-radius: 100px;
+    text-decoration: none;
+    background: white;
+    font-weight: bold;
+    align-items: center;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    width: 15%;
+    min-width: 150px;
+}
+
+button img {
+    width: 20%;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+button:hover{
+    border: #D84905 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------- FOOTER ---------------------------------------- */
+
+footer {
+    background-color: white;
+    padding: 1em;
+}
+
+footer h2 {
+    color: black;
+    font-family: 'jost', sans-serif;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+footer p {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: black;
+    font-style: normal;
+}
+
+footer img {
+    width: 3em;
+    padding: 1rem;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+}
+
+footer a {
+    font-family: 'ROBOTO', sans-serif;
+    color: black;
+}
+
+
+.num-tel {
+    text-shadow: none;
+    display: inline-block;
+}

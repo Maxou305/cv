@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Maxime Chazard - Contact</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="index.html#section-presentation">PRESENTATION</a>
+            </li>
+            <li>
+                <a href="index.html#section-formation">FORMATION</a>
+            </li>
+            <li>
+                <a href="index.html#section-experiences-pro">EXPERIENCES PROS</a>
+            </li>
+            <li>
+                <a href="index.html#section-soft-skills">SOFT SKILLS</a> 
+            </li>
+            <li>
+                <a href="index.html#section-dev-skills">DEV SKILLS</a> 
+            </li>
+            <li>
+                <a href="hobby.html">HOBBY</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </header>
+
+    <section id="section-formulaire">
+        <form action="https://httpbin.org/post" method="post">
+            <fieldset>
+                <legend>FORMULAIRE DE CONTACT</legend>
+                <div class="genre">
+                    <div>
+                        <label for="monsieur">M.</label>
+                        <input type="radio" name="genre" id="monsieur" value="monsieur" required>
+                    </div>
+                    <div>
+                        <label for="monsieur">Mme</label>
+                        <input type="radio" name="genre" id="madame" value="madame" required>
+                    </div>
+                    <div>
+                        <label for="monsieur">Autre</label>
+                        <input type="radio" name="genre" id="autre" value="autre" required>
+                    </div>
+                </div>
+                <div class="coordonnees">
+                    <div class="champ-saisi">
+                        <label for="nom">NOM</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="champ-saisi">
+                        <label for="prenom">PRENOM</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                </div>
+                <div class="coordonnees">
+                    <div class="champ-saisi">
+                        <label for="mail">MAIL</label>
+                        <input type="email" id="mail" name="mail" required>
+                    </div>
+                    <div class="champ-saisi">
+                        <label for="question">VOTRE DEMANDE</label>
+                        <select name="type-question" id="question" required>
+                            <option value=""></option>
+                            <option value="entretien">Demande d'entretien</option>
+                            <option value="informations">Demande d'informations</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="message">
+                    <div>
+                        <label for="message">MESSAGE</label>
+                        <textarea name="message" id="message" cols="25" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit">
+                        ENVOYER
+                        <img src="images/icone-envoyer.png" alt="icone envoyer">
+                    </button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <h2>CONTACT</h2>
+        <ul>
+            <li>
+                <img src="images/icone-mail.png" alt="icone mail">
+                <a href="mailto:maxime.chazard@gmail.com">maxime.chazard@gmail.com</a>
+            </li>
+            <li>
+                <img src="images/icone-tel.png" alt="icone tel">
+                <a href="tel:0635154992">06 35 15 49 92</a>
+            </li>
+            <li>
+                <img src="images/icone-github.png" alt="icone GitHub">
+                <a href="https://www.github.com/lpzkjdoi" target="_blank">Github</a>
+            </li> 
+            <li>
+                <img src="images/icone-linkedin.png" alt="icone Linkedin">
+                <a href="https://www.linkedin.com/maximechazard" target="_blank">LinkedIn</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
